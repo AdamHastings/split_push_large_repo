@@ -28,7 +28,7 @@ This script solves this problem by automating the process of splitting large pus
 1. Clone or download the script to your local machine:
 
 ```bash
-git clone <repo_url>
+git clone https://github.com/AdamHastings/split_push_large_repo.git 
 ```
 
 2. Make the script executable:
@@ -40,7 +40,7 @@ chmod +x split_push.sh
 ## Usage
 
 ```bash
-./split_push.sh <path-to-commit> [-s STEP_SIZE] [-r REMOTE_NAME] [-b BRANCH_NAME]
+./split_push.sh <path/to/your/repository> [-s STEP_SIZE] [-r REMOTE_NAME] [-b BRANCH_NAME]
 ```
 
 ### Arguments
